@@ -33,8 +33,6 @@ def lambda_handler(event, context):
 
     #     raise e
 
-    print("Hello World !!!")
-
     return {
         "statusCode": 200,
         "body": json.dumps({
